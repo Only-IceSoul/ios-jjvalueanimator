@@ -34,8 +34,8 @@ class ViewController: UIViewController {
             })
         .setDuration(10000) // 10seg
         .setFramerate(20) // default 60
-      .setInterpolator(JJInterpolator(ease: .ANTICIPATEOVERSHOOT))
-    //   .setInterpolator(JJInterpolatorCycle(cycles: 4))
+      //.setInterpolator(JJInterpolator(ease: .ANTICIPATEOVERSHOOT))
+       .setInterpolator(JJInterpolatorCycle(cycles: 4))
         //    .setRepeatCount(10)
         mCurrentAnimator?.addListener(OnAnimationListener(self))
         mCurrentAnimator?.start()

@@ -83,7 +83,7 @@ return self
 override public func end() {
 if mStarted {
 endAnimation()
-mUL?(mEv)
+ntfyEUL()
 super.end()
 }
 }
@@ -177,7 +177,7 @@ private func cD() -> Bool {
 return self.mDuration > 0
 }
 private func cTF() -> Bool {
-return self.mTF < 0.99
+return self.mTF < 0.999
 }
 private func rvV(){
 if mRdV {
@@ -213,7 +213,7 @@ self.rstTF()
 }
 }
 private func sEAnim(_ timeFraction: Double){
-if self.mTF >= 0.99 {
+if self.mTF >= 0.999 {
 if self.iIfe() {
 self.mkR()
 self.mListener?.onAnimationRepeat(self)
@@ -230,5 +230,11 @@ self.uTF(timeFraction)
 }
 private func cRC() -> Bool {
 return mRptCH != 0
+}
+private func ntfyEUL(){
+let fr = Double(self.mIn.getInterpolation(input: 1))
+let value = self.mE.evaluate(fraction: Float(fr), startValue: self.mSv, endValue: self.mEv)
+print("ending",self.mTF,value)
+self.mUL?(value)
 }
 }

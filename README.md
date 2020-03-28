@@ -93,7 +93,7 @@ anim.setInterpolator(MyInterpolator())
 
 ## Listeners 
 
-Estan JJAnimatorListener y JJAnimatorPauseListener 
+There are JJAnimatorListener y JJAnimatorPauseListener 
 
 ```swift
  anim.addListener(OnAnimationListener(self))
