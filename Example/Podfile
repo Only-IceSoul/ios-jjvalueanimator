@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJValueAnimator_Example' do
+  pod 'JJValueAnimator', :path => '../'
+
+  target 'JJValueAnimator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

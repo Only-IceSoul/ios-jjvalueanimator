@@ -1,0 +1,16 @@
+PODS:
+  - JJValueAnimator (1.0)
+
+DEPENDENCIES:
+  - JJValueAnimator (from `../`)
+
+EXTERNAL SOURCES:
+  JJValueAnimator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JJValueAnimator: eda11e2b5a7f5fb52da4ec253f99e7ea3c71446f
+
+PODFILE CHECKSUM: c934f78a8cbbd310a6bc28d42ceb4c66d57eb703
+
+COCOAPODS: 1.9.1

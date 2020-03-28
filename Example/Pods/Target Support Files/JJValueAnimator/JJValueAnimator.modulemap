@@ -1,0 +1,6 @@
+framework module JJValueAnimator {
+  umbrella header "JJValueAnimator-umbrella.h"
+
+  export *
+  module * { export * }
+}

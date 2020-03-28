@@ -1,0 +1,6 @@
+framework module Pods_JJValueAnimator_Example {
+  umbrella header "Pods-JJValueAnimator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

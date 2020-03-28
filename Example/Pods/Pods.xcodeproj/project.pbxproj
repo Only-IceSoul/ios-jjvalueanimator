@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E5520CA7F167F14138C8D3137FA70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		092CBA9079F1A5393D469006A3334140 /* JJInterpolatorOvershoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A560BC7DAFDF70013DA741F6EE0C68AE /* JJInterpolatorOvershoot.swift */; };
+		0A8F65B4C7FE0440C01DD57D73D1A47A /* JJValueAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3535E673DFCE622839BFA49DA0624678 /* JJValueAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10E881FD9FEA9033074A6B17EA38F7A2 /* JJInterpolatorCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D218CE312D17DE30B6F05C5C4B76EDC3 /* JJInterpolatorCycle.swift */; };
+		1CE9F099A43973DAE8F8372C32686B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		281A42AC312C61880A0905A6AA30A6A9 /* Pods-JJValueAnimator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D97154C5C25C68D4384FB91B205D704 /* Pods-JJValueAnimator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5AE4A5F1D45DA54E2E66F37E09B8E8 /* JJInterpolatorAccelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06457E2C74605BD9208D754E16520899 /* JJInterpolatorAccelerate.swift */; };
+		2C21A7C3B9541185D6411464159D567A /* Pods-JJValueAnimator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F882868EB8FB8E31FB3F12AFA382B9 /* Pods-JJValueAnimator_Tests-dummy.m */; };
+		2F1A5E6D5C76DADA0FDF3C745C0C57AD /* JJInterpolatorFastOutSlowIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7A2943D6D0B212C6DC23D766077FD /* JJInterpolatorFastOutSlowIn.swift */; };
+		31352DE5321E2D105BED78569B7CAD6F /* FloatEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4F83C75512F8999A01FE6A2C45068F /* FloatEvaluator.swift */; };
+		31E5CEE8C94664FBC8AAD7D8E09884B7 /* JJInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7C50114A0D9D45553D54F582C1F4AA /* JJInterpolator.swift */; };
+		3C280B52FB54D403875626F3335B32D3 /* JJValueAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A69836DB4348DE0CE7FD80A7E93B1A /* JJValueAnimator.swift */; };
+		425F1DA5F0D4F81E88167D9E61FF8C61 /* Pods-JJValueAnimator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C02C1B32DBC7E83BFFF5BAC05090846 /* Pods-JJValueAnimator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57640429FEDE0471873817207E28D611 /* Pods-JJValueAnimator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 000479617A5432DD59CC7B5451436CBF /* Pods-JJValueAnimator_Example-dummy.m */; };
+		6366C15FDFD9B03C30CDA031C4D3E2D2 /* JJAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CDBDF16F0A976BFC28DF84443C6A90 /* JJAnimator.swift */; };
+		757C5D2D2F0BCF745A001110EA79A931 /* JJInterpolatorAnticipateOvershoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8570F5E58AFB6919732B1DACFB435E /* JJInterpolatorAnticipateOvershoot.swift */; };
+		7A2C7D73010B02C8851A59C3E93A29B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8B3ED6452BC53418286472A64154807A /* JJAnimatorPauseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C53F5104FD643F37AACC5281172F554 /* JJAnimatorPauseListener.swift */; };
+		927E47C06764240F539816173202AE98 /* JJAnimatorListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F982142976D2D51B311E3E83917259 /* JJAnimatorListener.swift */; };
+		C0BAEF888ACC4551AAEDE9B1346CA048 /* JJTimeInterpolator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5F53F7FA3A927617D5E10A94EF448A /* JJTimeInterpolator.swift */; };
+		C2D6CD01533B07413586D8DBF6081327 /* JJInterpolatorFastOutLinearIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1159BE24DBE76A4E8CF93805E865758C /* JJInterpolatorFastOutLinearIn.swift */; };
+		D76307C71B414D22DBB29E45E0E86E5D /* JJInterpolatorDecelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C724E135F4147D8A9C978C9281C4686F /* JJInterpolatorDecelerate.swift */; };
+		E73C9EF50A3CF142F4FE688F42512416 /* JJInterpolatorLinearOutSlowIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16F0CD1C01DC1149CAA46EA1DE050D /* JJInterpolatorLinearOutSlowIn.swift */; };
+		F09E4CCBF3168E3751DFDD6CE8A381F9 /* JJInterpolatorLookupTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994B30C90F08BB1CF5E1289018F8F99 /* JJInterpolatorLookupTable.swift */; };
+		F80ED05109D6224458EB9EF7A160F39B /* JJInterpolatorAnticipate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F8B6A4829466412E08AC99663E7B6A /* JJInterpolatorAnticipate.swift */; };
+		F93A0F99F81F9BA245AB222ACE5DDEDE /* JJValueAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1408323F4D1AB57067F78DDAD68F88 /* JJValueAnimator-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC375D35A69B3E9B3B637EE9C77AAEAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA285AB1CBFF934B1E814861EC84D755;
+			remoteInfo = "Pods-JJValueAnimator_Example";
+		};
+		C2C0D139E31713839E6014313083B22C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B41DC618A696A7A297B0DE2922C4E797;
+			remoteInfo = JJValueAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000479617A5432DD59CC7B5451436CBF /* Pods-JJValueAnimator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJValueAnimator_Example-dummy.m"; sourceTree = "<group>"; };
+		02E3D8E7DE6D3CD2049A16D6DEBCDC23 /* Pods-JJValueAnimator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJValueAnimator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		06457E2C74605BD9208D754E16520899 /* JJInterpolatorAccelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorAccelerate.swift; sourceTree = "<group>"; };
+		0994B30C90F08BB1CF5E1289018F8F99 /* JJInterpolatorLookupTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorLookupTable.swift; sourceTree = "<group>"; };
+		0D97154C5C25C68D4384FB91B205D704 /* Pods-JJValueAnimator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJValueAnimator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0E6DA29F1DA8B7476EF52C48EEA4C841 /* Pods-JJValueAnimator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJValueAnimator_Example-Info.plist"; sourceTree = "<group>"; };
+		1159BE24DBE76A4E8CF93805E865758C /* JJInterpolatorFastOutLinearIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorFastOutLinearIn.swift; sourceTree = "<group>"; };
+		17D7D2E838AD9723D0AEF7ECDC004199 /* Pods-JJValueAnimator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJValueAnimator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1E5F53F7FA3A927617D5E10A94EF448A /* JJTimeInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJTimeInterpolator.swift; sourceTree = "<group>"; };
+		27DDD02335CA9AC14E1AED0305D8603B /* Pods-JJValueAnimator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJValueAnimator_Tests.modulemap"; sourceTree = "<group>"; };
+		2C02C1B32DBC7E83BFFF5BAC05090846 /* Pods-JJValueAnimator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJValueAnimator_Example-umbrella.h"; sourceTree = "<group>"; };
+		30F982142976D2D51B311E3E83917259 /* JJAnimatorListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJAnimatorListener.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3535E673DFCE622839BFA49DA0624678 /* JJValueAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJValueAnimator-umbrella.h"; sourceTree = "<group>"; };
+		3EF7A2943D6D0B212C6DC23D766077FD /* JJInterpolatorFastOutSlowIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorFastOutSlowIn.swift; sourceTree = "<group>"; };
+		5B88C1749EBABD4785265016264F0D86 /* JJValueAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJValueAnimator.release.xcconfig; sourceTree = "<group>"; };
+		5D08ACDE1CD7B159E2A6B87E143D4AA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7738EA81362A6C44FFF8A41BFF8C4525 /* Pods-JJValueAnimator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJValueAnimator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C12A8D62EBA62D5690F5D0465474DE4 /* JJValueAnimator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JJValueAnimator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C16F0CD1C01DC1149CAA46EA1DE050D /* JJInterpolatorLinearOutSlowIn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorLinearOutSlowIn.swift; sourceTree = "<group>"; };
+		7D336C0C319E9B39611538F60D574630 /* JJValueAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJValueAnimator-Info.plist"; sourceTree = "<group>"; };
+		81F8B6A4829466412E08AC99663E7B6A /* JJInterpolatorAnticipate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorAnticipate.swift; sourceTree = "<group>"; };
+		823912D8107532AE38ECB7B31DE3C703 /* Pods-JJValueAnimator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJValueAnimator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84CC122B54DF71C0077E686E59D8AEA0 /* Pods-JJValueAnimator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJValueAnimator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A820B42B78BBD0E362F4C0C8E0210A6 /* Pods_JJValueAnimator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJValueAnimator_Example.framework; path = "Pods-JJValueAnimator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8570F5E58AFB6919732B1DACFB435E /* JJInterpolatorAnticipateOvershoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorAnticipateOvershoot.swift; sourceTree = "<group>"; };
+		8C53F5104FD643F37AACC5281172F554 /* JJAnimatorPauseListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJAnimatorPauseListener.swift; sourceTree = "<group>"; };
+		93E61D4D1437C191333171A4BF810330 /* Pods-JJValueAnimator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJValueAnimator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9507EC647FEAAED15F8E7DB27A9B9997 /* JJValueAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJValueAnimator.framework; path = JJValueAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CDBDF16F0A976BFC28DF84443C6A90 /* JJAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JJAnimator.swift; path = src/JJAnimator.swift; sourceTree = "<group>"; };
+		997AF0EFCF6B11804C8D490D5108255C /* JJValueAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJValueAnimator.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F882868EB8FB8E31FB3F12AFA382B9 /* Pods-JJValueAnimator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJValueAnimator_Tests-dummy.m"; sourceTree = "<group>"; };
+		A4F2235A38949601B32998D2C88084DA /* Pods-JJValueAnimator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJValueAnimator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A560BC7DAFDF70013DA741F6EE0C68AE /* JJInterpolatorOvershoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorOvershoot.swift; sourceTree = "<group>"; };
+		A7A69836DB4348DE0CE7FD80A7E93B1A /* JJValueAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JJValueAnimator.swift; path = src/JJValueAnimator.swift; sourceTree = "<group>"; };
+		AF4F83C75512F8999A01FE6A2C45068F /* FloatEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FloatEvaluator.swift; path = src/FloatEvaluator.swift; sourceTree = "<group>"; };
+		B48E71DF7B90E1BC2371A96316DF4EF5 /* Pods-JJValueAnimator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJValueAnimator_Tests-Info.plist"; sourceTree = "<group>"; };
+		B5BB65F483716B03C42FD91E1B365E3D /* Pods-JJValueAnimator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJValueAnimator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C18F7E71045C3ECB49E8360A3291747C /* Pods-JJValueAnimator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJValueAnimator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6F6397AE467C913CBB04E146B399A77 /* Pods-JJValueAnimator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJValueAnimator_Example.modulemap"; sourceTree = "<group>"; };
+		C724E135F4147D8A9C978C9281C4686F /* JJInterpolatorDecelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorDecelerate.swift; sourceTree = "<group>"; };
+		D218CE312D17DE30B6F05C5C4B76EDC3 /* JJInterpolatorCycle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolatorCycle.swift; sourceTree = "<group>"; };
+		D9C2E715614FC58C7BA7E1D93C4EB1AC /* JJValueAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJValueAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		DD1408323F4D1AB57067F78DDAD68F88 /* JJValueAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJValueAnimator-dummy.m"; sourceTree = "<group>"; };
+		DD293DEB21F49E7414F9322191729A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DDC25EEB749495E8D48AC9054F8FF1D8 /* Pods_JJValueAnimator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJValueAnimator_Tests.framework; path = "Pods-JJValueAnimator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD7561E505169C9814BEE6F58EAC844 /* JJValueAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJValueAnimator-prefix.pch"; sourceTree = "<group>"; };
+		EB7C50114A0D9D45553D54F582C1F4AA /* JJInterpolator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJInterpolator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A461C93A72B1E6491A4176AA0E24D9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A2C7D73010B02C8851A59C3E93A29B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF67A0919AE76EB4C603BA9828E45F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E5520CA7F167F14138C8D3137FA70A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D559AACF4A6906E64699C97ABC9672A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE9F099A43973DAE8F8372C32686B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03233CC22EA9C8D807A2095C7A4311AA /* Pods-JJValueAnimator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				27DDD02335CA9AC14E1AED0305D8603B /* Pods-JJValueAnimator_Tests.modulemap */,
+				823912D8107532AE38ECB7B31DE3C703 /* Pods-JJValueAnimator_Tests-acknowledgements.markdown */,
+				C18F7E71045C3ECB49E8360A3291747C /* Pods-JJValueAnimator_Tests-acknowledgements.plist */,
+				A0F882868EB8FB8E31FB3F12AFA382B9 /* Pods-JJValueAnimator_Tests-dummy.m */,
+				B48E71DF7B90E1BC2371A96316DF4EF5 /* Pods-JJValueAnimator_Tests-Info.plist */,
+				0D97154C5C25C68D4384FB91B205D704 /* Pods-JJValueAnimator_Tests-umbrella.h */,
+				84CC122B54DF71C0077E686E59D8AEA0 /* Pods-JJValueAnimator_Tests.debug.xcconfig */,
+				B5BB65F483716B03C42FD91E1B365E3D /* Pods-JJValueAnimator_Tests.release.xcconfig */,
+			);
+			name = "Pods-JJValueAnimator_Tests";
+			path = "Target Support Files/Pods-JJValueAnimator_Tests";
+			sourceTree = "<group>";
+		};
+		11F9DF503FE6E217F021D0C669C7E45D /* Pods-JJValueAnimator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C6F6397AE467C913CBB04E146B399A77 /* Pods-JJValueAnimator_Example.modulemap */,
+				02E3D8E7DE6D3CD2049A16D6DEBCDC23 /* Pods-JJValueAnimator_Example-acknowledgements.markdown */,
+				A4F2235A38949601B32998D2C88084DA /* Pods-JJValueAnimator_Example-acknowledgements.plist */,
+				000479617A5432DD59CC7B5451436CBF /* Pods-JJValueAnimator_Example-dummy.m */,
+				7738EA81362A6C44FFF8A41BFF8C4525 /* Pods-JJValueAnimator_Example-frameworks.sh */,
+				0E6DA29F1DA8B7476EF52C48EEA4C841 /* Pods-JJValueAnimator_Example-Info.plist */,
+				2C02C1B32DBC7E83BFFF5BAC05090846 /* Pods-JJValueAnimator_Example-umbrella.h */,
+				17D7D2E838AD9723D0AEF7ECDC004199 /* Pods-JJValueAnimator_Example.debug.xcconfig */,
+				93E61D4D1437C191333171A4BF810330 /* Pods-JJValueAnimator_Example.release.xcconfig */,
+			);
+			name = "Pods-JJValueAnimator_Example";
+			path = "Target Support Files/Pods-JJValueAnimator_Example";
+			sourceTree = "<group>";
+		};
+		18F9629D04D251D6CA1752A6C6CBC396 /* JJValueAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				AF4F83C75512F8999A01FE6A2C45068F /* FloatEvaluator.swift */,
+				95CDBDF16F0A976BFC28DF84443C6A90 /* JJAnimator.swift */,
+				A7A69836DB4348DE0CE7FD80A7E93B1A /* JJValueAnimator.swift */,
+				81774CFAA18C04235CCAD1EC3D45BC8D /* interpolator */,
+				D9970FF5443C6F5922F040843766FC0B /* Listener */,
+				C46BBCC094D600E973C871F1986D0657 /* Pod */,
+				D9E263C9809D12246E13703E6793E8BB /* Support Files */,
+			);
+			name = JJValueAnimator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3AD345AF786A7F32EEC10535284596B5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				18F9629D04D251D6CA1752A6C6CBC396 /* JJValueAnimator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		475493314837F0211BB0D4E4666C7BAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F9DF503FE6E217F021D0C669C7E45D /* Pods-JJValueAnimator_Example */,
+				03233CC22EA9C8D807A2095C7A4311AA /* Pods-JJValueAnimator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		81774CFAA18C04235CCAD1EC3D45BC8D /* interpolator */ = {
+			isa = PBXGroup;
+			children = (
+				EB7C50114A0D9D45553D54F582C1F4AA /* JJInterpolator.swift */,
+				06457E2C74605BD9208D754E16520899 /* JJInterpolatorAccelerate.swift */,
+				81F8B6A4829466412E08AC99663E7B6A /* JJInterpolatorAnticipate.swift */,
+				8A8570F5E58AFB6919732B1DACFB435E /* JJInterpolatorAnticipateOvershoot.swift */,
+				D218CE312D17DE30B6F05C5C4B76EDC3 /* JJInterpolatorCycle.swift */,
+				C724E135F4147D8A9C978C9281C4686F /* JJInterpolatorDecelerate.swift */,
+				1159BE24DBE76A4E8CF93805E865758C /* JJInterpolatorFastOutLinearIn.swift */,
+				3EF7A2943D6D0B212C6DC23D766077FD /* JJInterpolatorFastOutSlowIn.swift */,
+				7C16F0CD1C01DC1149CAA46EA1DE050D /* JJInterpolatorLinearOutSlowIn.swift */,
+				0994B30C90F08BB1CF5E1289018F8F99 /* JJInterpolatorLookupTable.swift */,
+				A560BC7DAFDF70013DA741F6EE0C68AE /* JJInterpolatorOvershoot.swift */,
+				1E5F53F7FA3A927617D5E10A94EF448A /* JJTimeInterpolator.swift */,
+			);
+			name = interpolator;
+			path = src/interpolator;
+			sourceTree = "<group>";
+		};
+		A222F0FF4A53C529A7FB4D4257683C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9507EC647FEAAED15F8E7DB27A9B9997 /* JJValueAnimator.framework */,
+				8A820B42B78BBD0E362F4C0C8E0210A6 /* Pods_JJValueAnimator_Example.framework */,
+				DDC25EEB749495E8D48AC9054F8FF1D8 /* Pods_JJValueAnimator_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C46BBCC094D600E973C871F1986D0657 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7C12A8D62EBA62D5690F5D0465474DE4 /* JJValueAnimator.podspec */,
+				DD293DEB21F49E7414F9322191729A41 /* LICENSE */,
+				5D08ACDE1CD7B159E2A6B87E143D4AA6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3AD345AF786A7F32EEC10535284596B5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A222F0FF4A53C529A7FB4D4257683C58 /* Products */,
+				475493314837F0211BB0D4E4666C7BAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9970FF5443C6F5922F040843766FC0B /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				30F982142976D2D51B311E3E83917259 /* JJAnimatorListener.swift */,
+				8C53F5104FD643F37AACC5281172F554 /* JJAnimatorPauseListener.swift */,
+			);
+			name = Listener;
+			path = src/Listener;
+			sourceTree = "<group>";
+		};
+		D9E263C9809D12246E13703E6793E8BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				997AF0EFCF6B11804C8D490D5108255C /* JJValueAnimator.modulemap */,
+				DD1408323F4D1AB57067F78DDAD68F88 /* JJValueAnimator-dummy.m */,
+				7D336C0C319E9B39611538F60D574630 /* JJValueAnimator-Info.plist */,
+				DFD7561E505169C9814BEE6F58EAC844 /* JJValueAnimator-prefix.pch */,
+				3535E673DFCE622839BFA49DA0624678 /* JJValueAnimator-umbrella.h */,
+				D9C2E715614FC58C7BA7E1D93C4EB1AC /* JJValueAnimator.debug.xcconfig */,
+				5B88C1749EBABD4785265016264F0D86 /* JJValueAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JJValueAnimator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0201DF18ECE4E1DE84A161D7CA334939 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425F1DA5F0D4F81E88167D9E61FF8C61 /* Pods-JJValueAnimator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75A70673C1DB56A7347CAFFC23ACED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281A42AC312C61880A0905A6AA30A6A9 /* Pods-JJValueAnimator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BF1C7C5CAB9DEB998A5B4D2B6E4306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F65B4C7FE0440C01DD57D73D1A47A /* JJValueAnimator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B41DC618A696A7A297B0DE2922C4E797 /* JJValueAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D75D0256A2670BC67AFD6B0881FE75E /* Build configuration list for PBXNativeTarget "JJValueAnimator" */;
+			buildPhases = (
+				D4BF1C7C5CAB9DEB998A5B4D2B6E4306 /* Headers */,
+				68E06045C3AFBE50F2B2B5E20379AE1D /* Sources */,
+				3A461C93A72B1E6491A4176AA0E24D9D /* Frameworks */,
+				613C66D384D0539F02553D7E4C28995E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJValueAnimator;
+			productName = JJValueAnimator;
+			productReference = 9507EC647FEAAED15F8E7DB27A9B9997 /* JJValueAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5D087448F096F008A4C750DDD60325C /* Pods-JJValueAnimator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1341C2913C9C87F9A722A37A8F583FA /* Build configuration list for PBXNativeTarget "Pods-JJValueAnimator_Tests" */;
+			buildPhases = (
+				C75A70673C1DB56A7347CAFFC23ACED8 /* Headers */,
+				8F53BEB3C1CFF2DFA440783248CAFC43 /* Sources */,
+				D559AACF4A6906E64699C97ABC9672A9 /* Frameworks */,
+				C64784086F3282ABF252F69AB1AF3E7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D828E1791832C6E5AC34EEBAA322D06 /* PBXTargetDependency */,
+			);
+			name = "Pods-JJValueAnimator_Tests";
+			productName = "Pods-JJValueAnimator_Tests";
+			productReference = DDC25EEB749495E8D48AC9054F8FF1D8 /* Pods_JJValueAnimator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA285AB1CBFF934B1E814861EC84D755 /* Pods-JJValueAnimator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E1F64F27A992AFD50F2FF5AAFFD138 /* Build configuration list for PBXNativeTarget "Pods-JJValueAnimator_Example" */;
+			buildPhases = (
+				0201DF18ECE4E1DE84A161D7CA334939 /* Headers */,
+				74417D365B431A10A39CBDA14DF0EADF /* Sources */,
+				BEF67A0919AE76EB4C603BA9828E45F5 /* Frameworks */,
+				307AB9DA3BD951B6CFC1485EFDED6CF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				101C3E5B3F2631001A574CD36CEAA27E /* PBXTargetDependency */,
+			);
+			name = "Pods-JJValueAnimator_Example";
+			productName = "Pods-JJValueAnimator_Example";
+			productReference = 8A820B42B78BBD0E362F4C0C8E0210A6 /* Pods_JJValueAnimator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A222F0FF4A53C529A7FB4D4257683C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B41DC618A696A7A297B0DE2922C4E797 /* JJValueAnimator */,
+				FA285AB1CBFF934B1E814861EC84D755 /* Pods-JJValueAnimator_Example */,
+				E5D087448F096F008A4C750DDD60325C /* Pods-JJValueAnimator_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307AB9DA3BD951B6CFC1485EFDED6CF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		613C66D384D0539F02553D7E4C28995E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64784086F3282ABF252F69AB1AF3E7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E06045C3AFBE50F2B2B5E20379AE1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31352DE5321E2D105BED78569B7CAD6F /* FloatEvaluator.swift in Sources */,
+				6366C15FDFD9B03C30CDA031C4D3E2D2 /* JJAnimator.swift in Sources */,
+				927E47C06764240F539816173202AE98 /* JJAnimatorListener.swift in Sources */,
+				8B3ED6452BC53418286472A64154807A /* JJAnimatorPauseListener.swift in Sources */,
+				31E5CEE8C94664FBC8AAD7D8E09884B7 /* JJInterpolator.swift in Sources */,
+				2A5AE4A5F1D45DA54E2E66F37E09B8E8 /* JJInterpolatorAccelerate.swift in Sources */,
+				F80ED05109D6224458EB9EF7A160F39B /* JJInterpolatorAnticipate.swift in Sources */,
+				757C5D2D2F0BCF745A001110EA79A931 /* JJInterpolatorAnticipateOvershoot.swift in Sources */,
+				10E881FD9FEA9033074A6B17EA38F7A2 /* JJInterpolatorCycle.swift in Sources */,
+				D76307C71B414D22DBB29E45E0E86E5D /* JJInterpolatorDecelerate.swift in Sources */,
+				C2D6CD01533B07413586D8DBF6081327 /* JJInterpolatorFastOutLinearIn.swift in Sources */,
+				2F1A5E6D5C76DADA0FDF3C745C0C57AD /* JJInterpolatorFastOutSlowIn.swift in Sources */,
+				E73C9EF50A3CF142F4FE688F42512416 /* JJInterpolatorLinearOutSlowIn.swift in Sources */,
+				F09E4CCBF3168E3751DFDD6CE8A381F9 /* JJInterpolatorLookupTable.swift in Sources */,
+				092CBA9079F1A5393D469006A3334140 /* JJInterpolatorOvershoot.swift in Sources */,
+				C0BAEF888ACC4551AAEDE9B1346CA048 /* JJTimeInterpolator.swift in Sources */,
+				F93A0F99F81F9BA245AB222ACE5DDEDE /* JJValueAnimator-dummy.m in Sources */,
+				3C280B52FB54D403875626F3335B32D3 /* JJValueAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74417D365B431A10A39CBDA14DF0EADF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57640429FEDE0471873817207E28D611 /* Pods-JJValueAnimator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F53BEB3C1CFF2DFA440783248CAFC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C21A7C3B9541185D6411464159D567A /* Pods-JJValueAnimator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		101C3E5B3F2631001A574CD36CEAA27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJValueAnimator;
+			target = B41DC618A696A7A297B0DE2922C4E797 /* JJValueAnimator */;
+			targetProxy = C2C0D139E31713839E6014313083B22C /* PBXContainerItemProxy */;
+		};
+		6D828E1791832C6E5AC34EEBAA322D06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JJValueAnimator_Example";
+			target = FA285AB1CBFF934B1E814861EC84D755 /* Pods-JJValueAnimator_Example */;
+			targetProxy = AC375D35A69B3E9B3B637EE9C77AAEAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F21CD7F22FE3E95941F0A5B927CBB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C2E715614FC58C7BA7E1D93C4EB1AC /* JJValueAnimator.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JJValueAnimator/JJValueAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJValueAnimator/JJValueAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJValueAnimator/JJValueAnimator.modulemap";
+				PRODUCT_MODULE_NAME = JJValueAnimator;
+				PRODUCT_NAME = JJValueAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7022E91AA90749C21DFFD33134218C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B88C1749EBABD4785265016264F0D86 /* JJValueAnimator.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JJValueAnimator/JJValueAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJValueAnimator/JJValueAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJValueAnimator/JJValueAnimator.modulemap";
+				PRODUCT_MODULE_NAME = JJValueAnimator;
+				PRODUCT_NAME = JJValueAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A3C2175C3BECE2722F1A0136A23A1A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BB65F483716B03C42FD91E1B365E3D /* Pods-JJValueAnimator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJValueAnimator_Tests/Pods-JJValueAnimator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJValueAnimator_Tests/Pods-JJValueAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A601610102F0644EA85CA6A15325C55F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D7D2E838AD9723D0AEF7ECDC004199 /* Pods-JJValueAnimator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJValueAnimator_Example/Pods-JJValueAnimator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJValueAnimator_Example/Pods-JJValueAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCB893D4B5B1A9292EABB0303A683A08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84CC122B54DF71C0077E686E59D8AEA0 /* Pods-JJValueAnimator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJValueAnimator_Tests/Pods-JJValueAnimator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJValueAnimator_Tests/Pods-JJValueAnimator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D770147A487C054C6FE46F795B599317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E61D4D1437C191333171A4BF810330 /* Pods-JJValueAnimator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JJValueAnimator_Example/Pods-JJValueAnimator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JJValueAnimator_Example/Pods-JJValueAnimator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E1F64F27A992AFD50F2FF5AAFFD138 /* Build configuration list for PBXNativeTarget "Pods-JJValueAnimator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A601610102F0644EA85CA6A15325C55F /* Debug */,
+				D770147A487C054C6FE46F795B599317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D75D0256A2670BC67AFD6B0881FE75E /* Build configuration list for PBXNativeTarget "JJValueAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F21CD7F22FE3E95941F0A5B927CBB37 /* Debug */,
+				7022E91AA90749C21DFFD33134218C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1341C2913C9C87F9A722A37A8F583FA /* Build configuration list for PBXNativeTarget "Pods-JJValueAnimator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB893D4B5B1A9292EABB0303A683A08 /* Debug */,
+				A3C2175C3BECE2722F1A0136A23A1A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
