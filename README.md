@@ -56,7 +56,7 @@ JJValueAnimator uses the current thread.
 ## Interpolator
 The time interpolator used in calculating the elapsed fraction of the animation. The default value is Linear.
 
-Intepolators start with JJInterpolator.
+[Intepolators](easing.md) start with JJInterpolator.
 
 ```swift
 import JJValueAnimator
