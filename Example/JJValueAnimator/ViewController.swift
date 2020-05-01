@@ -32,14 +32,13 @@ class ViewController: UIViewController {
             [weak self ] (value) in
                 self?.mLabel.text = "\(Int(value))"
             })
-        .setDuration(10000) // 10seg
-        .setFramerate(20) // default 60
+        .setDuration(5000) // 10seg
       //.setInterpolator(JJInterpolator(ease: .ANTICIPATEOVERSHOOT))
-       .setInterpolator(JJInterpolatorCycle(cycles: 4))
+       .setInterpolator(JJInterpolatorCycle(cycles: 3))
         //    .setRepeatCount(10)
         mCurrentAnimator?.addListener(OnAnimationListener(self))
         mCurrentAnimator?.start()
-       
+        
     }
 
 }
