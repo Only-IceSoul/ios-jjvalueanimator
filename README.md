@@ -48,10 +48,6 @@ let anim = JJValueAnimator.ofFloat(0, to: 100).addUpdateListener({
 anim.start()
 ````
 
-## Thread 
-
-JJValueAnimator uses the current thread.
-
 
 ## Interpolator
 The time interpolator used in calculating the elapsed fraction of the animation. The default value is Linear.
